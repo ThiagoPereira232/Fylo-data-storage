@@ -15,10 +15,23 @@
     color: white;
 }
 
-body {f
+body {
     font-size: 14px;
     background-color: var(--very-dark-blue);
-    background-image: url(../images/bg-desktop.png);
+}
+
+#background img {
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    bottom: 0;
+}
+
+.arquivo {
+    position: fixed;
+    align-items: center;
+    justify-items: center;
+    transform: translate(-50% -50%);
 }
 
 .attribution { 
