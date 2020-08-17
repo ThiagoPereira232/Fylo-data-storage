@@ -18,6 +18,7 @@
 body {
     font-size: 14px;
     background-color: var(--very-dark-blue);
+    background-image: url(../images/bg-desktop.png);
 }
 
 .attribution { 
