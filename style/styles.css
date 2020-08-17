@@ -1,0 +1,33 @@
+:root {
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    font-size: 14px;
+    background-color: var(--very-dark-blue);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
