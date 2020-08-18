@@ -28,6 +28,9 @@ body {
 }
 
 .content {
+    max-width: 800px;
+    width: 100%;
+    height: 150px;
     display: flex;
     position: fixed;
     top: 50%;
@@ -36,20 +39,23 @@ body {
 }
 
 .storage {
-    background-color: red;
-    height: 100px;
+    background-color: var(--dark-blue);
+    height: 150px;
     width: 500px;
 }
 
 .arquivo {
-    width: 200px;
-    height: 100px;
-    background-color: white;
-    position: fixed;
-    align-items: center;
-    justify-items: center;
-    transform: translate(-50% -50%);
+    width: 310px;
+    background-color: var(--dark-blue);
+    display: block;
+    border-radius: 10px 75px 10px 10px;
+    margin-right: 25px;
 }
+
+.arquivo img {
+    margin: 38px 0 12px 32px;
+}
+
 
 .attribution { 
     font-size: 11px; 
