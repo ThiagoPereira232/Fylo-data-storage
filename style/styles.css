@@ -62,7 +62,7 @@ body {
     margin-left: 32px;
 }
 
-.document .folder .upload {
+.document, .folder, .upload {
     position: absolute;
 }
 
@@ -79,6 +79,25 @@ body {
 .upload {
     top: 72px;
     left: 124px;
+}
+
+.itens-grid li {
+    background-color: var(--very-dark-blue);
+    list-style: none;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itens-grid li:hover {
+    background-color: var(--pale-blue);
+}
+
+.itens-grid li:active {
+    background-color: var(--grayish-blue);
 }
 
 .attribution { 
