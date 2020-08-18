@@ -30,17 +30,16 @@ body {
 .content {
     max-width: 800px;
     width: 100%;
-    height: 150px;
+    height: 180px;
     display: flex;
     position: fixed;
     top: 50%;
-    right: 50%;
-    transform: translate(-50% -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .storage {
     background-color: var(--dark-blue);
-    height: 150px;
     width: 500px;
 }
 
@@ -56,6 +55,31 @@ body {
     margin: 38px 0 12px 32px;
 }
 
+.itens-grid {
+    display: grid;
+    grid-template-columns: 48px 48px 48px;
+    gap: 8px;
+    margin-left: 32px;
+}
+
+.document .folder .upload {
+    position: absolute;
+}
+
+.document {
+    top: 68px;
+    left: 14px;
+}
+
+.folder {
+    top: 71px;
+    left: 68px;
+}
+
+.upload {
+    top: 72px;
+    left: 124px;
+}
 
 .attribution { 
     font-size: 11px; 
