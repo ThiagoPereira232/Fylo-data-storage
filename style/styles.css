@@ -27,7 +27,24 @@ body {
     bottom: 0;
 }
 
+.content {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50% -50%);
+}
+
+.storage {
+    background-color: red;
+    height: 100px;
+    width: 500px;
+}
+
 .arquivo {
+    width: 200px;
+    height: 100px;
+    background-color: white;
     position: fixed;
     align-items: center;
     justify-items: center;
