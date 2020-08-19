@@ -59,27 +59,33 @@ body {
 
 .triangulo {
     position: absolute;
-    border-top: 20px solid transparent;
+    border-top: 20px solid white;
     border-bottom: 20px solid transparent;
-    border-right: 20px solid transparent;
+    border-right: 20px solid white;
     top: 52px;
     right: 30px;
     width: 0;
     height: 0; 
-    background-color: white;
 }
 
-.pop-up p {
+.pop-up p,
+.pop-up p span {
     color: var(--grayish-blue);
-    font: 700 12px;
+    font-weight: 700;
+    font-size: 12px;
     text-align: center;
     margin-top: 14px; 
+}
+
+.pop-up p span {
+    margin-top: 10px;
 }
 
 .pop-up strong {
     color: var(--very-dark-blue);
     margin-right: 8px;
-    font: 36px 700;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .right {
