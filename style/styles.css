@@ -66,13 +66,39 @@ body {
     right: 30px;
     width: 0;
     height: 0; 
+    background-color: white;
 }
 
 .pop-up p {
     color: var(--grayish-blue);
     font: 700 12px;
-     
+    text-align: center;
+    margin-top: 14px; 
 }
+
+.pop-up strong {
+    color: var(--very-dark-blue);
+    margin-right: 8px;
+    font: 36px 700;
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    bottom: 32px;
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    bottom: 32px;
+    margin-left: 334px;
+}
+
+.bar {
+    
+}
+
 
 .arquivo {
     width: 310px;
