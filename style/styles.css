@@ -40,7 +40,38 @@ body {
 
 .storage {
     background-color: var(--dark-blue);
-    width: 500px;
+    display: flex;
+    flex: 1;
+    margin-top: 55px;
+    border-radius: 12px;
+    padding: 30px 32px;
+}
+
+.pop-up {
+    background-color: white;
+    width: 180px;
+    height: 72px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    border-radius: 12px;
+}
+
+.triangulo {
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    top: 52px;
+    right: 30px;
+    width: 0;
+    height: 0; 
+}
+
+.pop-up p {
+    color: var(--grayish-blue);
+    font: 700 12px;
+     
 }
 
 .arquivo {
