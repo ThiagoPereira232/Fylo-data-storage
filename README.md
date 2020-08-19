@@ -27,3 +27,14 @@ A plataforma Fylo foi construídas nas seguintes tecnologias:
 
 - HTML
 - CSS
+
+<a id="como-execultar-o-projeto">
+
+# :floppy_disk: Como execultar o projeto
+
+```
+    # Clonar o projeto
+    git clone 
+
+    # Abra o arquivo ```index.html```
+```
