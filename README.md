@@ -38,3 +38,15 @@ A plataforma Fylo foi construídas nas seguintes tecnologias:
 
     # Abra o arquivo ```index.html```
 ```
+
+---
+
+<a id="contribuir"></a>
+
+## :recycle: Como contribuir
+
+- Faça um Fork desse projeto
+- Crie uma branch com sua feature
+- Commit suas mudanças
+- Push a sua Branch
+
