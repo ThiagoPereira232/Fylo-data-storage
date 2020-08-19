@@ -43,10 +43,23 @@ A plataforma Fylo foi construídas nas seguintes tecnologias:
 
 <a id="contribuir"></a>
 
-## :recycle: Como contribuir
+## :rocket: Como contribuir
 
 - Faça um Fork desse projeto
 - Crie uma branch com sua feature
 - Commit suas mudanças
 - Push a sua Branch
 
+---
+
+<a id="license"><a>
+
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<p align="center">
+    Desenvolvido com 💜 por Thiago Pereira
+</p>
