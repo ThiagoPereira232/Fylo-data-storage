@@ -1,0 +1,9 @@
+@media(max-width: 1099px) {
+    #background img.background {
+        opacity: 0;
+    }
+
+    #background img.bg-mobile {
+        opacity: 1;
+    }
+}

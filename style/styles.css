@@ -20,11 +20,15 @@ body {
     background-color: var(--very-dark-blue);
 }
 
-#background img {
+#background img.background {
     position: fixed;
     width: 100vw;
     height: 50vh;
     bottom: 0;
+}
+
+#background img.bg-mobile {
+    opacity: 0;
 }
 
 .content {
