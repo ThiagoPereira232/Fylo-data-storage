@@ -1,9 +1,45 @@
-@media(max-width: 1099px) {
+@media(max-width: 600px) {
     #background img.background {
         opacity: 0;
     }
 
     #background img.bg-mobile {
         opacity: 1;
+    }
+
+    .content {
+        max-width: 300px;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+        justify-items: center;
+        align-items: center;
+        transform: translate(-50% -50%);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .arquivo {
+        height: 200px;
+        margin-bottom: 0;
+        padding-left: 15px;
+    }
+
+    .itens-grid {
+        gap: 16px;
+    }
+
+    .document {
+        top: 68px;
+        left: 5px;
+    }
+    
+    .folder {
+        top: 71px;
+        left: 67px;
+    }
+    
+    .upload {
+        top: 72px;
+        left: 130px;
     }
 }
