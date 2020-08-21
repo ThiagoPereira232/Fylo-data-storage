@@ -8,12 +8,15 @@
     }
 
     .content {
+        display: flex;
         max-width: 300px;
         flex-direction: column;
         height: 100vh;
         overflow: hidden;
         justify-items: center;
         align-items: center;
+        top: 65%;
+        left: 50%;
         transform: translate(-50% -50%);
         border-radius: 10px 10px 10px 10px;
     }
@@ -22,6 +25,8 @@
         height: 200px;
         margin-bottom: 0;
         padding-left: 15px;
+        width: 100%;
+        margin-right: 0;
     }
 
     .itens-grid {
@@ -30,16 +35,29 @@
 
     .document {
         top: 68px;
-        left: 5px;
+        left: 22px;
     }
     
     .folder {
         top: 71px;
-        left: 67px;
+        left: 85px;
     }
     
     .upload {
         top: 72px;
-        left: 130px;
+        left: 148px;
     }
+
+    .storage {
+        border-radius: 20px;
+        width: 80%;
+        flex: 0.2;
+        margin-top: 20px;
+    }
+
+    p { 
+        font-size: 14px;
+    }
+
+    
 }
