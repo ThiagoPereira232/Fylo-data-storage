@@ -72,4 +72,15 @@
     .bar>span>span {
         margin-left: 169px;
     }
+
+    .left, 
+    .right {
+        margin-bottom: 280px;
+    }
+
+    .left {
+        margin-bottom: 285px;
+        margin-left: 0;
+    }
+    
 }
