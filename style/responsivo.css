@@ -83,4 +83,14 @@
         margin-left: 0;
     }
     
+    .triangulo {
+        opacity: 0;
+    }
+
+    .pop-up {
+        margin-top: 330px;
+        margin-right: 55px;
+        height: 70px;
+        width: 150px;
+    }
 }
