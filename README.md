@@ -3,7 +3,7 @@
 - [Sobre](#sobre)
 - [Preview](#preview)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Como executar o projeto](#como-execultar-o-projeto)
+- [Como executar o projeto](#como-executar-o-projeto)
 - [Como Contribuir](#contribuir)
 
 ---
@@ -28,11 +28,11 @@ A plataforma Fylo foi construídas nas seguintes tecnologias:
 - HTML
 - CSS
 
-<a id="como-execultar-o-projeto">
+<a id="como-executar-o-projeto">
 
-# :floppy_disk: Como execultar o projeto
+# :floppy_disk: Como executar o projeto
 
-```
+```bash
     # Clonar o projeto
     git clone 
 
